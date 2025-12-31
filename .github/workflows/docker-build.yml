@@ -34,4 +34,4 @@ jobs:
           push: true
           tags: |
             harbor.kubernetes.name/nginx-simulated/nginx-simulated:${{ github.sha }}
-            latest
+            harbor.kubernetes.name/nginx-simulated/nginx-simulated:latest
